@@ -3,10 +3,6 @@ import discord
 from botServ import botServ
 from token import TOKEN
 import os
-from dotenv import load_dotenv
-
-load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
 
 bot = discord.Client()
 
