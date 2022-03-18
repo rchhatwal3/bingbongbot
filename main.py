@@ -1,6 +1,7 @@
 #import discord library and bot serv
 import discord
 from botServ import botServ
+from token import TOKEN
 import os
 from dotenv import load_dotenv
 
